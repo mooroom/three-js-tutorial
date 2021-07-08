@@ -35,6 +35,8 @@ function generatePlane() {
     const y = array[i + 1];
     const z = array[i + 2];
 
+    array[i] = x + Math.random();
+    array[i + 1] = y + Math.random();
     array[i + 2] = z + Math.random();
   }
 }
